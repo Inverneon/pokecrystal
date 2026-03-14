@@ -33,7 +33,7 @@ Moves:
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         60, FLYING,       100, 35,   0
 	move WHIRLWIND,    EFFECT_FORCE_SWITCH,        0, NORMAL,       100, 20,   0
 	move FLY,          EFFECT_FLY,                70, FLYING,        95, 15,   0
-	move BIND,         EFFECT_TRAP_TARGET,        15, NORMAL,        75, 20,   0
+	move BIND,         EFFECT_TRAP_TARGET,       100, GHOST,         85, 20,   0
 	move SLAM,         EFFECT_NORMAL_HIT,         80, NORMAL,        75, 20,   0
 	move VINE_WHIP,    EFFECT_DOUBLE_HIT,         45, GRASS,        100, 10,   0
 	move STOMP,        EFFECT_STOMP,              65, GROUND,       100, 20,  30
@@ -170,7 +170,7 @@ Moves:
 	move FURY_SWIPES,  EFFECT_MULTI_HIT,          30, NORMAL,        80, 15,   0
 	move BONEMERANG,   EFFECT_DOUBLE_HIT,         50, GROUND,       100, 10,   0
 	move REST,         EFFECT_HEAL,                0, PSYCHIC_TYPE, 100, 10,   0
-	move ROCK_SLIDE,   EFFECT_FLINCH_HIT,         75, ROCK,          90, 10,  30
+	move ROCK_SLIDE,   EFFECT_FLINCH_HIT,         75, ROCK,         100, 10,  30
 	move HYPER_FANG,   EFFECT_FLINCH_HIT,         80, NORMAL,        90, 15,  10
 	move SHARPEN,      EFFECT_ATTACK_UP,           0, NORMAL,       100, 30,   0
 	move CONVERSION,   EFFECT_CONVERSION,          0, NORMAL,       100, 30,   0
