@@ -38,7 +38,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
-	dw NoEffect            ; ITEM_19
+	dw PocketReminderEffect; PCKT_REMIND 
 	dw VitaminEffect       ; HP_UP
 	dw VitaminEffect       ; PROTEIN
 	dw VitaminEffect       ; IRON
@@ -2919,4 +2919,8 @@ GetMthMoveOfCurrentMon:
 	ld c, a
 	ld b, 0
 	add hl, bc
+	ret
+
+PocketReminderEffect:
+	farcall PocketReminderFunction
 	ret

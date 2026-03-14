@@ -209,7 +209,7 @@ TotodilePokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke TOTODILE, 5, BERRY
+	givepoke HITMONTOP, 65, BERRY
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript
@@ -474,7 +474,8 @@ AideScript_GivePotion:
 	opentext
 	writetext AideText_GiveYouPotion
 	promptbutton
-	verbosegiveitem POTION
+	giveitem POKE_BALL, 30
+	giveitem PCKT_REMIND
 	writetext AideText_AlwaysBusy
 	waitbutton
 	closetext
@@ -501,7 +502,8 @@ AideScript_GiveYouBalls:
 	promptbutton
 	getitemname STRING_BUFFER_4, POKE_BALL
 	scall AideScript_ReceiveTheBalls
-	giveitem POKE_BALL, 5
+	giveitem POKE_BALL, 30
+	giveitem PCKT_REMIND
 	writetext AideText_ExplainBalls
 	promptbutton
 	itemnotify

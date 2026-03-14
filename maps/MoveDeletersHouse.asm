@@ -14,6 +14,14 @@ MoveDeleter:
 	closetext
 	end
 
+MoveReminder:
+	faceplayer
+	opentext
+	special MoveReminder
+	waitbutton
+	closetext
+	end
+
 MoveDeletersHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 

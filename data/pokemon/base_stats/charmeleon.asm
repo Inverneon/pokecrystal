@@ -1,9 +1,9 @@
-	db CHARMELEON ; 005
+	db 0 ; species ID placeholder
 
 	db  58,  64,  58,  80,  80,  65
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIRE, FIRE ; type
+	db FIRE, DRAGON ; type
 	db 45 ; catch rate
 	db 142 ; base exp
 	db NO_ITEM, NO_ITEM ; items
