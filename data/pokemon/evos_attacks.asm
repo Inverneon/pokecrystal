@@ -1840,15 +1840,22 @@ FlareonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
-	db 16, EMBER
-	db 23, QUICK_ATTACK
-	db 30, BITE
-	db 36, FIRE_SPIN
-	db 42, SMOG
-	db 47, LEER
-	db 52, FLAMETHROWER
-	db 0 ; no more level-up moves
+	db 8, BITE
+	db 11, EMBER
+	db 15, QUICK_ATTACK
+	db 18, SWIFT
+	db 20, SMOG
+	db 22, FLAME_WHEEL
+	db 25, DOUBLE_KICK
+	db 28, AGILITY
+    db 32, CRUNCH
+    db 36, FLAMETHROWER
+	db 40, CURSE
+    db 40, DOUBLE_EDGE
+    db 44, GROWTH
+    db 48, FIRE_BLAST
+	db 52, SKULL_BASH
+	db 56, FUTURE_SIGHTp moves
 
 PorygonEvosAttacks:
 	db EVOLVE_TRADE, UP_GRADE, PORYGON2
@@ -2651,12 +2658,14 @@ EspeonEvosAttacks:
 	db 22, PSYBEAM
 	db 25, PSYCH_UP
 	db 28, MORNING_SUN
-  db 32, DOUBLE_EDGE
-  db 36, PSYCHIC_M
-  db 40, SOLARBEAM
-  db 44, GROWTH
-  db 48, 
-	db 52, MORNING_SUN
+    db 32, CRUNCH
+    db 36, PSYCHIC_M
+	db 40, SUNNY_DAY
+    db 40, SOLARBEAM
+    db 44, GROWTH
+    db 48, FIRE_SPIN
+	db 52, ZAP_CANNON
+	db 56, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
 UmbreonEvosAttacks:
