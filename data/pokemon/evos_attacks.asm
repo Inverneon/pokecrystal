@@ -2644,13 +2644,18 @@ EspeonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
-	db 16, CONFUSION
-	db 23, QUICK_ATTACK
-	db 30, SWIFT
-	db 36, PSYBEAM
-	db 42, PSYCH_UP
-	db 47, PSYCHIC_M
+	db 8, BITE
+	db 11, CONFUSION
+	db 15, QUICK_ATTACK
+	db 18, SWIFT
+	db 22, PSYBEAM
+	db 25, PSYCH_UP
+	db 28, MORNING_SUN
+  db 32, DOUBLE_EDGE
+  db 36, PSYCHIC_M
+  db 40, SOLARBEAM
+  db 44, GROWTH
+  db 48, 
 	db 52, MORNING_SUN
 	db 0 ; no more level-up moves
 
