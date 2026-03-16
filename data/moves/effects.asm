@@ -2077,3 +2077,18 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+Spiderweb:
+	checkobedience
+	usedmovetext
+	doturn
+	arenatrap
+	checkhit
+	leechseed
+	speeddown2
+	lowersub
+	statdownanim
+	raisesub
+	statdownmessage
+	statdownfailtext
+	endmove

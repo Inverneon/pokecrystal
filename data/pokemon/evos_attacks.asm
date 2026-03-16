@@ -1810,16 +1810,23 @@ EeveeEvosAttacks:
 
 VaporeonEvosAttacks:
 	db 0 ; no more evolutions
+	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
-	db 16, WATER_GUN
-	db 23, QUICK_ATTACK
-	db 30, BITE
-	db 36, AURORA_BEAM
-	db 42, HAZE
-	db 47, ACID_ARMOR
-	db 52, HYDRO_PUMP
+	db 8, BITE
+	db 11, WATER_GUN
+	db 15, QUICK_ATTACK
+	db 18, SWIFT
+	db 22, BUBBLEBEAM
+	db 25, AURORA_BEAM
+	db 28, ACID_ARMOR
+    db 32, CRUNCH
+    db 36, WATERFALL
+	db 40, RAIN_DANCE
+    db 44, ICE_BEAM
+    db 48, HYDRO_PUMP
+	db 52, GROWTH
+	db 56, WHIRLPOOL
 	db 0 ; no more level-up moves
 
 JolteonEvosAttacks:
@@ -1855,7 +1862,8 @@ FlareonEvosAttacks:
     db 44, GROWTH
     db 48, FIRE_BLAST
 	db 52, SKULL_BASH
-	db 56, FUTURE_SIGHTp moves
+	db 56 HYPER_BEAM
+	db 0 ; no more level-up moves
 
 PorygonEvosAttacks:
 	db EVOLVE_TRADE, UP_GRADE, PORYGON2
