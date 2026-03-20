@@ -3,7 +3,7 @@
 	db  70,  55,  70,  85,  95, 110
 	;   hp  atk  def  spd  sat  sdf
 
-	db BUG, PSYCHIC ; type
+	db BUG, PSYCHIC_TYPE ; type
 	db 90 ; catch rate
 	db 134 ; base exp
 	db NO_ITEM, NO_ITEM ; items

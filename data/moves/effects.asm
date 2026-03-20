@@ -1023,6 +1023,7 @@ TriAttack:
 	critical
 	damagestats
 	damagecalc
+	triplekick
 	stab
 	damagevariation
 	checkhit
