@@ -792,6 +792,7 @@ PoliwagEvosAttacks:
 	db EVOLVE_LEVEL, 25, POLIWHIRL
 	db 0 ; no more evolutions
 	db 1, BUBBLE
+	db 3, TACKLE
 	db 7, HYPNOSIS
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
@@ -1180,32 +1181,47 @@ DewgongEvosAttacks:
 	db 0 ; no more level-up moves
 
 GrimerEvosAttacks:
-	db EVOLVE_LEVEL, 38, MUK
+	db EVOLVE_LEVEL, 30, MUK
 	db 0 ; no more evolutions
-	db 1, POISON_GAS
-	db 1, POUND
-	db 5, HARDEN
-	db 10, DISABLE
-	db 16, SLUDGE
-	db 23, MINIMIZE
-	db 31, SCREECH
-	db 40, ACID_ARMOR
-	db 50, SLUDGE_BOMB
+	db 1, HARDEN
+	db 3, POUND
+	db 5, DISABLE
+	db 7, MUD_SLAP
+	db 10, MOONLIGHT
+	db 14, SLUDGE
+	db 18, FAINT_ATTACK
+	db 22, SCREECH
+	db 25, MEGA_DRAIN
+	db 28, ACID_ARMOR
+	db 30, LICK
+	db 34, CONFUSE_RAY
+	db 38, VITAL_THROW
+	db 42, CURSE
+	db 46, SLUDGE_BOMB
+	db 50, THRASH
+	db 55, EXPLOSION
 	db 0 ; no more level-up moves
 
 MukEvosAttacks:
 	db 0 ; no more evolutions
 	; moves are not sorted by level
-	db 1, POISON_GAS
-	db 1, POUND
 	db 1, HARDEN
-	db 33, HARDEN
-	db 37, DISABLE
-	db 45, SLUDGE
-	db 23, MINIMIZE
-	db 31, SCREECH
-	db 45, ACID_ARMOR
-	db 60, SLUDGE_BOMB
+	db 3, POUND
+	db 5, DISABLE
+	db 7, MUD_SLAP
+	db 10, MOONLIGHT
+	db 14, SLUDGE
+	db 18, FAINT_ATTACK
+	db 22, SCREECH
+	db 25, MEGA_DRAIN
+	db 28, ACID_ARMOR
+	db 30, LICK
+	db 34, CONFUSE_RAY
+	db 38, VITAL_THROW
+	db 42, CURSE
+	db 46, SLUDGE_BOMB
+	db 50, THRASH
+	db 55, EXPLOSION
 	db 0 ; no more level-up moves
 
 ShellderEvosAttacks:
@@ -2165,7 +2181,7 @@ CyndaquilEvosAttacks:
 	db 19, SWIFT
 	db 22, MAGNITUDE
 	db 25, DOUBLE_KICK 
-	db 28, BODY_SLAMSLAM
+	db 28, BODY_SLAM
 	db 32, FLAMETHROWER
 	db 36, FURY_SWIPES
 	db 40, EARTHQUAKE
@@ -2333,13 +2349,14 @@ HoothootEvosAttacks:
 NoctowlEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
-	db 1, FORESIGHT
-	db 1, PECK
-	db 6, FORESIGHT
-	db 11, PECK
-	db 16, HYPNOSIS
-	db 25, REFLECT
+	db 3, GROWL
+	db 5, PECK
+	db 7, FORESIGHT
+	db 10, CONFUSION
+	db 13, HYPNOSIS
+	db 15, LIGHT_SCREEN
+	db 18, NIGHT_SHADE
+	db 22, BIND
 	db 33, TAKE_DOWN
 	db 41, CONFUSION
 	db 57, DREAM_EATER
@@ -2716,10 +2733,16 @@ SunkernEvosAttacks:
 SunfloraEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
-	db 1, POUND
-	db 4, GROWTH
-	db 10, RAZOR_LEAF
-	db 19, SUNNY_DAY
+	db 3, POUND
+	db 6, GROWTH
+	db 9, LEECH_SEED
+	db 12, MEGA_DRAIN
+	db 15, MORNING_SUN
+	db 19, SING
+	db 24, GIGA_DRAIN
+	db 28, SUNNY_DAY
+	db 32, FIRE_SPIN
+	db 38, 
 	db 31, PETAL_DANCE
 	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
@@ -2982,7 +3005,7 @@ ScizorEvosAttacks:
 	db 38, AGILITY
 	db 42, DETECT
 	db 45, MEGA_PUNCH 
-	db 48, SWORDS_DANCE
+	db 47, SWORDS_DANCE
 	db 54, GUILLOTINE
 	db 58, CROSS_CHOP
 	db 0 ; no more level-up moves

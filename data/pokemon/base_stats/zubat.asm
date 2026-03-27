@@ -1,6 +1,6 @@
 	db 0 ; species ID placeholder
 
-	db  40,  45,  35,  55,  30,  40
+	db  40,  60,  40,  60,  50,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, FLYING ; type
